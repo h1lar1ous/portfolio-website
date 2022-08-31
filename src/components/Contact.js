@@ -88,6 +88,7 @@ export const Contact = () => {
                                 </Col>
                                 <Col>
                                     <textarea
+                                        className="px-1"
                                         row="6"
                                         value={formDetails.message}
                                         placeholder="Enter message..."
